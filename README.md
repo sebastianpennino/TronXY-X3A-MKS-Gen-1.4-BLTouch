@@ -1,3 +1,11 @@
+### non-related useful links
+https://www.repetier.com/download-now/
+https://www.thingiverse.com/groups/tronxy/forums/general/topic:15095
+https://www.thingiverse.com/groups/tronxy/forums/general/topic:25450
+https://www.simplify3d.com/support/articles/3d-printing-gcode-tutorial/
+http://tronxy-x3a.blogspot.com/2016/12/bed-leveling.html
+https://www.thingiverse.com/groups/tronxy
+
 # TronXY-X3A-MKS-Gen-1.4-BLTouch
 
 This is the configuration I use for my modified TronXY X3A
