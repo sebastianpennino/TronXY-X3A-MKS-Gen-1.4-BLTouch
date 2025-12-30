@@ -1,0 +1,13 @@
+; Default start code
+G28 ; Home extruder
+G29 ; Bed Leveling
+G1 Z15 F{Z_TRAVEL_SPEED}
+M107 ; Turn off fan
+G90 ; Absolute positioning
+M82 ; Extruder in absolute mode
+{IF_BED}M190 S{BED}
+; Activate all used extruder
+{IF_EXT0}M104 T0 S{TEMP0}
+G92 E0 ; Reset extruder position
+; Wait for all used extruders to reach temperature
+{IF_EXT0}M109 T0 S{TEMP0}
